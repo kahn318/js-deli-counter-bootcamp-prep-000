@@ -19,7 +19,6 @@ function currentLine(katzDeliLine) {
   } else {
     var array = [];
     for (var i = 0, n = katzDeliLine.length; i < n; i++) {
-      var turn = i + 1;
       array.push(`${i + 1}. ${katzDeliLine[i]}`);
     }
 
