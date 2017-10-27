@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
       array.push(`${turn}. ${katzDeliLine[i]}`);
     }
 
-    return "The line is currently:" + array.join(", ");
+    return "The line is currently: " + array.join(", ");
   }
 }
